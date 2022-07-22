@@ -8,15 +8,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Ceramic 开发者文档',
   url: 'https://rde9.github.io/',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  baseUrl: '/ceramic-docs-zh/', // changed from "/" to "/ceramic-docs-zh/" for Github pages.
+  onBrokenLinks: 'log',
+  onBrokenMarkdownLinks: 'log',
   favicon: 'img/favicon.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'rde9', // Usually your GitHub org/user name.
   projectName: 'ceramic-docs-zh', // Usually your repo name.
+  trailingSlash: true, // explicit "trailngSlash" site config for Github pages.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
