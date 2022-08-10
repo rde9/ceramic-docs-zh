@@ -1,10 +1,12 @@
 # Ceramic 入门
 
-原文链接：**[Getting Started With Ceramic](https://blog.ceramic.network/getting-started-with-ceramic/)**
-
 :::info
 
-  原文更新时间：2022年6月27日。
+原文链接：**[Getting Started With Ceramic](https://blog.ceramic.network/getting-started-with-ceramic/)**
+
+原文更新时间：2022年6月27日
+
+原作者：KAIT HOBSON
 
 :::
 
